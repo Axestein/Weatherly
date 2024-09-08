@@ -47,7 +47,7 @@ const App = () => {
       {/* Header */}
       <header className="w-full max-w-6xl mb-8">
         <div className="flex flex-col md:flex-row md:justify-between items-center p-4 bg-[#2a2a2a] rounded-md shadow-md">
-          <h1 className="text-xl font-bold mb-4 md:mb-0">🌤 Weatherly</h1>
+        <h1 className="text-3xl font-bold mb-4 md:mb-0 text-teal-400">🌤 Weatherly</h1>
           <form onSubmit={handleSearch} className="flex items-center w-full md:w-auto">
             <input
               type="text"
@@ -58,7 +58,7 @@ const App = () => {
             />
             <button
               type="submit"
-              className="bg-gray-700 hover:bg-gray-600 p-2 rounded-r-md flex items-center"
+              className="bg-teal-600 hover:bg-teal-500 p-3 rounded-r-lg flex items-center transition duration-300 ease-in-out"
             >
               <BiSearch size={20} className="text-white" />
             </button>

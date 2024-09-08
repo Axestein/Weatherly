@@ -1,4 +1,3 @@
-// WeatherCard.jsx
 import React from 'react';
 
 const WeatherCard = ({ title, value, icon }) => {

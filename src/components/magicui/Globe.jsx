@@ -1,11 +1,9 @@
-// src/components/magicui/Globe.jsx
 "use client";
 
 import { useCallback, useEffect, useRef } from "react";
-import createGlobe from "cobe"; // Import the default export
+import createGlobe from "cobe"; 
 import { useSpring } from "react-spring";
 
-// Define your globe configuration object
 const GLOBE_CONFIG = {
   width: 800,
   height: 800,

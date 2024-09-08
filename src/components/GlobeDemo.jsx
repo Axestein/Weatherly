@@ -1,11 +1,10 @@
-// src/components/GlobeDemo.jsx
 import React from 'react';
-import Globe from './magicui/Globe'; // Ensure the path is correct
+import Globe from './magicui/Globe'; 
 
 export function GlobeDemo() {
   return (
     <div className="relative flex h-full w-full items-center justify-center overflow-hidden">
-      <Globe className="w-full h-full" /> {/* Make the globe take the full width and height */}
+      <Globe className="w-full h-full" /> 
     </div>
   );
 }

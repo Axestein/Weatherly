@@ -3,6 +3,7 @@ import WeatherCard from './components/WeatherCard';
 import { BiSearch } from 'react-icons/bi';
 import { WiDayCloudy, WiThermometer, WiHumidity, WiStrongWind, WiBarometer, WiFog, WiSunrise, WiSunset } from 'react-icons/wi';
 import GlobeDemo from './components/GlobeDemo'; 
+import WeatherChart from './components/WeatherChart';
 
 const App = () => {
   const [city, setCity] = useState('');

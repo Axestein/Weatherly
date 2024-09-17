@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import WeatherCard from './components/WeatherCard';
 import { BiSearch } from 'react-icons/bi';
 import { WiDayCloudy, WiThermometer, WiHumidity, WiStrongWind, WiBarometer, WiFog, WiSunrise, WiSunset } from 'react-icons/wi';
-import GlobeDemo from './components/GlobeDemo'; // Adjust this path if necessary
+import GlobeDemo from './components/GlobeDemo';
+import WeatherChart from './components/WeatherChart'; // Import the chart
 
 const App = () => {
   const [city, setCity] = useState('');
@@ -108,9 +109,9 @@ const App = () => {
 
         {/* GlobeDemo - Right Side */}
         <div className="bg-[#2a2a2a] flex items-center justify-center p-4 rounded-md shadow-md">
-          <GlobeDemo /> 
-        </div> 
-      </div> 
+          <GlobeDemo />
+        </div>
+      </div>
 
       {/* Additional Info Section */}
       <div className="w-full max-w-6xl mt-4">
@@ -138,6 +139,15 @@ const App = () => {
               icon={<WiSunset size={48} className="text-pink-400" />}
             />
           </div>
+        </div>
+      </div>
+
+      {/* Chart Section */}
+      <div className="w-full max-w-6xl mt-4">
+        <div className="bg-[#2a2a2a] p-4 rounded-md shadow-md">
+          <h2 className="text-lg font-bold mb-3">Weather Data Chart</h2>
+          {/* Weather Chart */}
+          {weatherData && <WeatherChart weatherData={weatherData} />}
         </div>
       </div>
     </div>

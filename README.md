@@ -1,6 +1,6 @@
 # Weatherly <img src="https://github.com/user-attachments/assets/9b56fb58-14ec-4e93-b463-b90ef81eb463" alt="appicon" width="25" height="25">
 
-![Group 34064](https://github.com/user-attachments/assets/6629d33b-475f-4ec6-815f-38cc4dd5013a)
+![Group 1437253662 (1)](https://github.com/user-attachments/assets/0fc6905b-70a1-4600-a59e-816b651062d6)
 
 
 Stay updated with the latest weather information using Weatherly, your minimalist weather dashboard application. Weatherly provides real-time weather data with a sleek, modern look that makes checking the weather a delightful experience.

@@ -11,7 +11,7 @@ Weatherly offers a clean and minimalist approach to displaying weather data. It 
 
 - **Current Weather**: View temperature, humidity, wind speed, and other key weather details.
 - **Sunrise and Sunset**: Check the exact times for sunrise and sunset in your location.
-- **Minimalist UI**: Designed with a focus on aesthetics and usability, making weather data easy to read and understand.
+- **Minimalist and Modern UI**: Designed with a focus on aesthetics and usability, making weather data easy to read and understand.
 
 ## 🛠️ Project Tech Stack
 
